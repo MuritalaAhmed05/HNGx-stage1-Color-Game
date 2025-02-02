@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Matching Game</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Matching Game</h1>
+        <p data-testid="gameInstructions">Test your color perception! Select the option that matches the target color exactly.</p>
+        <div id="targetColor" data-testid="colorBox"></div>
+        <div id="gameStatus" data-testid="gameStatus"></div>
+        <div class="score-container" data-testid="score">Score: <span id="score">0</span></div>
+        <div class="colors-container" id="colorsContainer" data-testid="colorOption"></div>
+        <button class="restart-game-btn" onclick="restartGame()" data-testid="newGameButton">Restart Game</button>
+    </div>
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
